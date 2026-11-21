@@ -132,7 +132,7 @@ public class FloatingMenuService extends Service {
                     WindowManager.LayoutParams.WRAP_CONTENT,
                     WindowManager.LayoutParams.WRAP_CONTENT,
                     type,
-                    WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+                    WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE | WindowManager.LayoutParams.FLAG_SECURE,
                     PixelFormat.TRANSLUCENT);
 
             params.gravity = Gravity.TOP | Gravity.START;
