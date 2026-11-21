@@ -7,7 +7,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.android.bluetooth"
+        applicationId "com.bob.loader"
         minSdk 24
         targetSdk 33
         versionCode 1
